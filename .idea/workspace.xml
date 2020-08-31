@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5e02fb0-79b6-4305-b465-69ac9685d69a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -11,9 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -29,27 +28,17 @@
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,7 +49,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596789624866</updated>
-      <workItem from="1596789626938" duration="610000" />
+      <workItem from="1596789626938" duration="1647000" />
+      <workItem from="1598856170024" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式:工厂方法 和抽象工厂">
       <created>1596789892083</created>
@@ -69,24 +59,47 @@
       <option name="project" value="LOCAL" />
       <updated>1596789892083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="设计模式:工厂方法 和抽象工厂">
+      <created>1596790262290</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596790262290</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式:工厂方法 和抽象工厂" />
     <option name="LAST_COMMIT_MESSAGE" value="设计模式:工厂方法 和抽象工厂" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="25" key="CommitChangelistDialog2" timestamp="1596789890550">
+    <state x="548" y="25" key="CommitChangelistDialog2" timestamp="1596790261070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="25" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596789890550" />
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1596789893960">
+    <state x="548" y="25" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596790261070" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1596791847511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596789893960" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596791847511" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1596790268065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596790268065" />
   </component>
 </project>
