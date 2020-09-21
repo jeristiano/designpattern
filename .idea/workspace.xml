@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5e02fb0-79b6-4305-b465-69ac9685d69a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Proxy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../annabelle/userCenter" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="Markdown Image Support" />
   </component>
@@ -111,7 +113,7 @@
       <workItem from="1598856170024" duration="465000" />
       <workItem from="1599458934169" duration="6727000" />
       <workItem from="1600421822209" duration="3198000" />
-      <workItem from="1600655424209" duration="3499000" />
+      <workItem from="1600655424209" duration="5604000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式:工厂方法 和抽象工厂">
       <created>1596789892083</created>
@@ -155,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600659799856</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="静态代理">
+      <created>1600669234338</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600669234339</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,14 +194,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600658294639" />
-    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600659797893">
+    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600669232902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600659797893" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1600655451433">
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600669232902" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1600678744827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600655451433" />
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600678744827" />
     <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1600659304111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -221,10 +230,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600655377405" />
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600654839589">
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600669238229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600654839589" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600669238229" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600658477267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,4 +1,5 @@
 <?php
+declare(strict_types=1);
 require_once 'TimeProxy.php';
 require_once 'LogProxy.php';
 require_once 'MotorMove.php';
@@ -15,3 +16,5 @@ $proxy->move();
 //先执行时间后执行日志
 $proxy = new LogProxy(new TimeProxy(new MotorMove()));
 $proxy->move();
+
+//这就是一个标准的静态代理模式的应用
