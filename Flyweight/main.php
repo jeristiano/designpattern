@@ -5,7 +5,7 @@ $factory = new FlyweightFactory();
 
 $extrinsicState = 100;
 $flA = $factory->getFlyweight('a');
- $flA->operation(--$extrinsicState);
+$flA->operation(--$extrinsicState);
 
 
 $unshaded=new UnsharedConcreteFlyweight();

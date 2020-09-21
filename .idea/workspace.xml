@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e02fb0-79b6-4305-b465-69ac9685d69a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Flyweight/ConcreteFlyweight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flyweight/FlyweightFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flyweight/UnsharedConcreteFlyweight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flyweight/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/LogProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/MotorMove.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/Moveable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/TimeProxy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proxy/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Flyweight/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Flyweight/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,11 +60,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../annabelle/userCenter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Proxy" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="Markdown Image Support" />
   </component>
-  <component name="RunManager" selected="PHP Script.main.php (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\data\webroot\www\design_pattern\Proxy" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.main.php (2)">
     <configuration name="main.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Flyweight/main.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="Ubuntu 20.04" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="main.php (2)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Proxy/main.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
           <option name="interpreterName" value="Ubuntu 20.04" />
@@ -80,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.main.php (2)" />
         <item itemvalue="PHP Script.main.php (1)" />
         <item itemvalue="PHP Script.main.php" />
       </list>
@@ -99,7 +116,8 @@
       <workItem from="1596789626938" duration="1647000" />
       <workItem from="1598856170024" duration="465000" />
       <workItem from="1599458934169" duration="6727000" />
-      <workItem from="1600421822209" duration="2651000" />
+      <workItem from="1600421822209" duration="3198000" />
+      <workItem from="1600655424209" duration="2867000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式:工厂方法 和抽象工厂">
       <created>1596789892083</created>
@@ -129,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599468791277</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="享元模式">
+      <created>1600654835453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600654835453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,52 +175,57 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="设计模式:工厂方法 和抽象工厂" />
     <MESSAGE value="观察者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="观察者模式" />
+    <MESSAGE value="享元模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="享元模式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1600653789230">
+    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1600658294639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600653789230" />
-    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1599468788844">
+    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600658294639" />
+    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600654833515">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1599468788844" />
-    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1599464660455">
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600654833515" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1600655451433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599464660455" />
-    <state width="1877" height="474" key="GridCell.Tab.0.bottom" timestamp="1600654813352">
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600655451433" />
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1600659304111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="474" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600654813352" />
-    <state width="1877" height="474" key="GridCell.Tab.0.center" timestamp="1600654813352">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
+    <state width="1877" height="473" key="GridCell.Tab.0.center" timestamp="1600659304111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="474" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600654813352" />
-    <state width="1877" height="474" key="GridCell.Tab.0.left" timestamp="1600654813352">
+    <state width="1877" height="473" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
+    <state width="1877" height="473" key="GridCell.Tab.0.left" timestamp="1600659304111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="474" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600654813352" />
-    <state width="1877" height="474" key="GridCell.Tab.0.right" timestamp="1600654813352">
+    <state width="1877" height="473" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
+    <state width="1877" height="473" key="GridCell.Tab.0.right" timestamp="1600659304111">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="474" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600654813352" />
-    <state x="653" y="222" key="NewPhpClassDialog" timestamp="1600653836242">
+    <state width="1877" height="473" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
+    <state x="653" y="222" key="NewPhpClassDialog" timestamp="1600658597332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="653" y="222" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600653836242" />
-    <state x="774" y="438" key="NewPhpFileDialog" timestamp="1600653907451">
+    <state x="653" y="222" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600658597332" />
+    <state x="774" y="438" key="NewPhpFileDialog" timestamp="1600658545745">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="774" y="438" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600653907451" />
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1599468852307">
+    <state x="774" y="438" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600658545745" />
+    <state x="453" y="164" key="SettingsEditor" timestamp="1600655377405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599468852307" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599468470495">
+    <state x="453" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600655377405" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600654839589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1599468470495" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600654839589" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600658477267">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600658477267" />
   </component>
 </project>
