@@ -21,13 +21,14 @@ class FilterChain implements Filter
             return;
         }
         $doFilter = $this->filters[$this->index];
-        $this->next();
-        $doFilter->doFilter($request, $chain);
+        $doFilter->doFilter($request, $this->next());
     }
 
-    public function next ()
+
+    protected function next (): self
     {
-        $this->index++;
+        ++$this->index;
+        return $this;
     }
 
     /**
