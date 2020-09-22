@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e02fb0-79b6-4305-b465-69ac9685d69a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Proxy/DynamicProxy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Ubuntu 20.04" />
   <component name="ProjectId" id="1flPIJRzI32rBzQ3CDQhzc1Ev7a" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -65,7 +65,10 @@
       <recent name="\\wsl$\Ubuntu-20.04\data\webroot\www\design_pattern\Proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.main.php (2)">
+  <component name="RunManager" selected="JavaScript Debug.DynamicProxy.php">
+    <configuration name="DynamicProxy.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/design_pattern/Proxy/DynamicProxy.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="main.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Flyweight/main.php">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -92,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.DynamicProxy.php" />
         <item itemvalue="PHP Script.main.php (2)" />
         <item itemvalue="PHP Script.main.php (1)" />
         <item itemvalue="PHP Script.main.php" />
@@ -113,7 +117,7 @@
       <workItem from="1598856170024" duration="465000" />
       <workItem from="1599458934169" duration="6727000" />
       <workItem from="1600421822209" duration="3198000" />
-      <workItem from="1600655424209" duration="5604000" />
+      <workItem from="1600655424209" duration="7350000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式:工厂方法 和抽象工厂">
       <created>1596789892083</created>
@@ -164,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600669234339</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="动态代理">
+      <created>1600682065471</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600682065471</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,56 +198,64 @@
     <MESSAGE value="观察者模式" />
     <MESSAGE value="享元模式" />
     <MESSAGE value="静态代理" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态代理" />
+    <MESSAGE value="动态代理" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态代理" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="644" y="72" key="#PHP" timestamp="1600740690221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="644" y="72" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1600740690221" />
     <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1600658294639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600658294639" />
-    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600669232902">
+    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600682063912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600669232902" />
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600682063912" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1600678744827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600678744827" />
-    <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1600659304111">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom" timestamp="1600740735870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
-    <state width="1877" height="473" key="GridCell.Tab.0.center" timestamp="1600659304111">
+    <state width="1877" height="473" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600740735870" />
+    <state width="1877" height="473" key="GridCell.Tab.0.center" timestamp="1600740735870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
-    <state width="1877" height="473" key="GridCell.Tab.0.left" timestamp="1600659304111">
+    <state width="1877" height="473" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600740735870" />
+    <state width="1877" height="473" key="GridCell.Tab.0.left" timestamp="1600740735870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
-    <state width="1877" height="473" key="GridCell.Tab.0.right" timestamp="1600659304111">
+    <state width="1877" height="473" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600740735870" />
+    <state width="1877" height="473" key="GridCell.Tab.0.right" timestamp="1600740735870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="473" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600659304111" />
-    <state x="653" y="222" key="NewPhpClassDialog" timestamp="1600658597332">
+    <state width="1877" height="473" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600740735870" />
+    <state x="653" y="222" key="NewPhpClassDialog" timestamp="1600740617383">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="653" y="222" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600658597332" />
-    <state x="774" y="438" key="NewPhpFileDialog" timestamp="1600658545745">
+    <state x="653" y="222" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600740617383" />
+    <state x="774" y="438" key="NewPhpFileDialog" timestamp="1600740628720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="774" y="438" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600658545745" />
+    <state x="774" y="438" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600740628720" />
     <state x="453" y="164" key="SettingsEditor" timestamp="1600655377405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600655377405" />
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600669238229">
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600682070222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600669238229" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600682070222" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600658477267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600658477267" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/design_pattern$DynamicProxy_php.dat" NAME="DynamicProxy.php Coverage Results" MODIFIED="1600740736077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
