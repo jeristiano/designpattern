@@ -22,5 +22,7 @@ class GroupLeaderFilter implements Filter
 
         }
         $chain->doFilter($request,$chain);
+
+        echo 'GroupLeader返回'.PHP_EOL;
     }
 }

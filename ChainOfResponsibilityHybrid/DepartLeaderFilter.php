@@ -22,5 +22,6 @@ class DepartLeaderFilter implements Filter
         }
 
         $chain->doFilter($request,$chain);
+        echo 'DepartLeader返回'.PHP_EOL;
     }
 }

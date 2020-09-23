@@ -20,6 +20,7 @@ class BossLeaderFilter implements Filter
             echo '不准你请这么长假=.=' . PHP_EOL;
         }
         $chain->doFilter($request,$chain);
+        echo '最终boss返回'.PHP_EOL;
 
     }
 }
