@@ -20,10 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e02fb0-79b6-4305-b465-69ac9685d69a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Builder/AlipayBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Builder/BuilderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Builder/PayDirector.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Builder/WechatBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Builder/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibilityHybrid/BossLeaderFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibilityHybrid/BossLeaderFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibilityHybrid/DepartLeaderFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibilityHybrid/DepartLeaderFilter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChainOfResponsibilityHybrid/GroupLeaderFilter.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChainOfResponsibilityHybrid/GroupLeaderFilter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,28 +60,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ChainOfResponsibilityHybrid" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Builder" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="Markdown Image Support" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\data\webroot\www\design_pattern\Builder" />
       <recent name="\\wsl$\Ubuntu-20.04\data\webroot\www\design_pattern\ChainOfResponsibilityHybrid" />
       <recent name="\\wsl$\Ubuntu-20.04\data\webroot\www\design_pattern\ChainOfResponsibility" />
       <recent name="\\wsl$\Ubuntu-20.04\data\webroot\www\design_pattern\Proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.main.php (4)">
+  <component name="RunManager" selected="PHP Script.main.php">
     <configuration name="DynamicProxy.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/design_pattern/Proxy/DynamicProxy.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="main.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Flyweight/main.php">
-      <CommandLine>
-        <PhpTestInterpreterSettings>
-          <option name="interpreterName" value="Ubuntu 20.04" />
-        </PhpTestInterpreterSettings>
-      </CommandLine>
       <method v="2" />
     </configuration>
     <configuration name="main.php (2)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Proxy/main.php">
@@ -95,13 +91,16 @@
     <configuration name="main.php (4)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/ChainOfResponsibilityHybrid/main.php">
       <method v="2" />
     </configuration>
+    <configuration name="main.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Builder/main.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.main.php" />
         <item itemvalue="PHP Script.main.php (4)" />
         <item itemvalue="PHP Script.main.php (3)" />
         <item itemvalue="JavaScript Debug.DynamicProxy.php" />
         <item itemvalue="PHP Script.main.php (2)" />
-        <item itemvalue="PHP Script.main.php (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +119,7 @@
       <workItem from="1598856170024" duration="465000" />
       <workItem from="1599458934169" duration="6727000" />
       <workItem from="1600421822209" duration="3198000" />
-      <workItem from="1600655424209" duration="19865000" />
+      <workItem from="1600655424209" duration="23052000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式:工厂方法 和抽象工厂">
       <created>1596789892083</created>
@@ -199,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600761470381</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="责任链模式增加递归返回(洋葱模型)">
+      <created>1600850466463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600850466463</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,61 +230,62 @@
     <MESSAGE value="静态代理" />
     <MESSAGE value="动态代理" />
     <MESSAGE value="责任链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="责任链模式" />
+    <MESSAGE value="责任链模式增加递归返回(洋葱模型)" />
+    <option name="LAST_COMMIT_MESSAGE" value="责任链模式增加递归返回(洋葱模型)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="644" y="72" key="#PHP" timestamp="1600740690221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="644" y="72" key="#PHP/0.0.1920.1040@0.0.1920.1040" timestamp="1600740690221" />
-    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1600758635848">
+    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser" timestamp="1600853134858">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600758635848" />
-    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600761468806">
+    <state x="751" y="188" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1600853134858" />
+    <state x="548" y="0" key="CommitChangelistDialog2" timestamp="1600850464793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600761468806" />
+    <state x="548" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1600850464793" />
     <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1600754418582">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600754418582" />
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1600850427666">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom" timestamp="1600854132106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600850427666" />
-    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1600850427666">
+    <state width="1877" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600854132106" />
+    <state width="1877" height="294" key="GridCell.Tab.0.center" timestamp="1600854132106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600850427666" />
-    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1600850427666">
+    <state width="1877" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600854132106" />
+    <state width="1877" height="294" key="GridCell.Tab.0.left" timestamp="1600854132106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600850427666" />
-    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1600850427666">
+    <state width="1877" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600854132106" />
+    <state width="1877" height="294" key="GridCell.Tab.0.right" timestamp="1600854132106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600850427666" />
-    <state x="653" y="222" key="NewPhpClassDialog" timestamp="1600758485247">
+    <state width="1877" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600854132106" />
+    <state x="653" y="222" key="NewPhpClassDialog" timestamp="1600853451820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="653" y="222" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600758485247" />
-    <state x="774" y="438" key="NewPhpFileDialog" timestamp="1600756231185">
+    <state x="653" y="222" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600853451820" />
+    <state x="774" y="438" key="NewPhpFileDialog" timestamp="1600853680286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="774" y="438" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600756231185" />
+    <state x="774" y="438" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600853680286" />
     <state x="453" y="164" key="SettingsEditor" timestamp="1600655377405">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1600655377405" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1600759418242">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1600853353987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600759418242" />
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600761473485">
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1600853353987" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2" timestamp="1600850471680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600761473485" />
+    <state x="552" y="247" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600850471680" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600758726673">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
